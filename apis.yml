@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'http://www.portal.com', status: 301, note: 'declared website redirects to https://www.oracle.com/content-management/webcenter-portal/ — a different registrable domain (portal.com -> oracle.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/portal-software.png
 name: Portal Software
 description: Portal Software was an Accel-backed billing and revenue-management software company whose
